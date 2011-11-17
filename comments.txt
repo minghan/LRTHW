@@ -2,7 +2,10 @@ Already know php and python (and a bit of rusty perl)...
 
 mostly syntactic sugar...
 
+Comments about chapters:
+
 *   foreach not explained in ex12
+    what does p do?
 
 *   no clear explanation of chomp in ex14
 
@@ -12,11 +15,43 @@ mostly syntactic sugar...
 *   ex23 calls files ending in *.c "weird files" =(
 
 *   ex27-28 boolean logic.. hm..
-    I like the fact that the "not" keyword is supported, like in python.
+    I like the fact that the "not" keyword is supported, similar to python.
 
 *   ex30: "elsif" ? ugly...
 
 *   ex32: ah loops, my fav. primitive recursion. nice.
+    discovered you can do
+    numbers.each{|n| p n} too. one-liner!
 
+*   ex37: aliasing in ruby?! interesting...
+    http://ruby.about.com/od/rubyfeatures/a/aliasing.htm
+    really nice symbol review
+
+*   ex38: nice use of %w(...)
+    value_at() is nice
+    (awesome piece of syntactic sugar there)
+    Point 4 talks abt "parenthesis" and functions...
+    hm...? consider: some_array.pop
+    this is really what makes Ruby great for DSL (domain specific lang)
+
+*   ex40: dictionaries/hashes quite cool
+
+*   ex41: I think there is a typo:
+    cities[:find] = method(:find\_city)     (should be?)
+    cities[:find] = method(:find_city)
+
+*   ex41: kid me not?
+        "three ways of reading most any programming language
+        1. Front to back
+        2. Back to front
+        3. Counter clock-wise"
+    You missed out "upside down" (e.g. lisp)
+
+
+*   ex42: classy classes
+    so @var is the way to declare instance variables in rb
+    nice alternative to this.x (java) and self.x (py)
+
+*   ex45: more OOP
 
 
