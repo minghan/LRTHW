@@ -1,2 +1,22 @@
-for each not explained in ex12
-no clear explanation of chomp in ex14
+Already know php and python (and a bit of rusty perl)...
+
+mostly syntactic sugar...
+
+*   foreach not explained in ex12
+
+*   no clear explanation of chomp in ex14
+
+*   no file.close in ex15? ah ok this is covered in ex16.
+    so ex15 was more of an intro
+
+*   ex23 calls files ending in *.c "weird files" =(
+
+*   ex27-28 boolean logic.. hm..
+    I like the fact that the "not" keyword is supported, like in python.
+
+*   ex30: "elsif" ? ugly...
+
+*   ex32: ah loops, my fav. primitive recursion. nice.
+
+
+
